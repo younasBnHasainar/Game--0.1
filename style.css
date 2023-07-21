@@ -6,13 +6,19 @@ body{
 }
 
 .second-col{
-    width: 15%;
+    width: 18%;
 }
 .first-col{
-    width: 85%;
+    width: 60%;
 }
 
-.text{
+.output-text{
+    margin-top: 0px;
+    line-height: 7mm;
+    font-weight: bolder;
+
+}
+.text-heading{
     font-weight: bolder;
     font-size: x-large;
 }
@@ -33,3 +39,4 @@ color: rgb(245, 242, 176);
 border: 1mm medium ;
 border-color: rgb(222, 199, 135);
 }
+
