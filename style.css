@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(2, 18, 6);
+    height: 700px;
+    border: 1mm double rgb(245, 242, 176);
+    color: rgb(245, 242, 176);
+}
+
+.second-col{
+    width: 15%;
+}
+.first-col{
+    width: 85%;
+}
+
+.text{
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.section2{
+    margin-top: 50px;
+    /* margin-left: 10px; */
+}
+
+.meme-btn, .joke-btn, .quote-btn, .riddle-btn{
+height: 40px;
+width: 200px;
+background-color: rgb(2, 18, 6);
+margin-top: 10px;
+
+font-size: large;
+color: rgb(245, 242, 176);
+border: 1mm medium ;
+border-color: rgb(222, 199, 135);
+}
