@@ -42,7 +42,7 @@ const riddleTag = document.querySelector(".riddle");
 
 function removeExistingOutput(){
     if(memeTag.children.length > 0){
-        const existingImgNode = document.querySelector("img")
+        const existingImgNode = document.querySelector(".meme-block")
         memeTag.removeChild(existingImgNode)
     } 
     if(jokesTag.children.length > 0){
@@ -66,15 +66,22 @@ memeBtn.addEventListener("click", displayAMemeImage)
 function displayAMemeImage(){
 
     removeExistingOutput();
-
+    
+    
+    const memeBlock = document.createElement('div')
+    const attr = document.createAttribute("class")
+    attr.value = 'meme-block'
+    memeBlock.setAttributeNode(attr)
+    memeTag.appendChild(memeBlock)
     const imgTag = document.createElement("img");
-    const attr = document.createAttribute("src");
+    const attr1 = document.createAttribute("src");
 
     const randomIndex = Math.floor(Math.random() * memesArray.length)
 
-    attr.value = memesArray[randomIndex] 
-    imgTag.setAttributeNode(attr)
-    memeTag.appendChild(imgTag)
+    attr1.value = memesArray[randomIndex] 
+    imgTag.setAttributeNode(attr1)
+    // memeTag.appendChild(document.createElement('br'))
+    memeBlock.appendChild(imgTag)
 }
 
 

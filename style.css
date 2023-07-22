@@ -7,6 +7,8 @@ body{
 
 .second-col{
     width: 18%;
+    border-left: 1px solid;
+    height: 700px;
 }
 .first-col{
     width: 60%;
@@ -23,9 +25,9 @@ body{
     font-size: x-large;
 }
 
-.section2{
-    margin-top: 50px;
-    /* margin-left: 10px; */
+.section2, .section1{
+    margin-left: 15px;
+    
 }
 
 .meme-btn, .joke-btn, .quote-btn, .riddle-btn{
@@ -38,5 +40,17 @@ font-size: large;
 color: rgb(245, 242, 176);
 border: 1mm medium ;
 border-color: rgb(222, 199, 135);
+
 }
 
+.quotes-text, .jokes-text, .riddle-text{
+    font-size: medium;
+    font-family:  monospace;
+
+}
+
+img{
+    height: 300px;
+    width: auto;
+
+}
