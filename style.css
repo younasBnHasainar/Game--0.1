@@ -15,42 +15,51 @@ body{
 }
 
 .output-text{
-    margin-top: 0px;
-    line-height: 7mm;
+    line-height: 10mm;
     font-weight: bolder;
 
 }
-.text-heading{
-    font-weight: bolder;
-    font-size: x-large;
-}
+
 
 .section2, .section1{
     margin-left: 15px;
-    
 }
 
-.meme-btn, .joke-btn, .quote-btn, .riddle-btn{
+button {
 height: 40px;
 width: 200px;
-background-color: rgb(2, 18, 6);
+background-color: transparent;
 margin-top: 10px;
 
 font-size: large;
 color: rgb(245, 242, 176);
 border: 1mm medium ;
 border-color: rgb(222, 199, 135);
+border-radius: 5px;
+}
 
+button:hover{
+    cursor: pointer;
+    background-color: royalblue;
 }
 
 .quotes-text, .jokes-text, .riddle-text{
     font-size: medium;
     font-family:  monospace;
-
+    color: royalblue;
 }
 
 img{
     height: 300px;
     width: auto;
+    border: thin white;
+}
 
+.riddle-answer{
+    color: cornflowerblue;
+}
+
+.riddle-ans-btn{
+    border: none;
+    text-decoration: underline;
 }
