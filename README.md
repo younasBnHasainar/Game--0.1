@@ -2,7 +2,7 @@
 
 ## Build Purpose: Learning
 A mood swing game. We can choose between Memes, Jokes,  Quotes and Riddles via buttons. 
-Game will contents parallel to our inputs. 
+Game will show contents parallel to our inputs. 
 Enjoy!! 
 
 ## Preview
@@ -10,7 +10,7 @@ Enjoy!!
 
 ## Personnel Outcome:
 * HTML DOM API Manipulation
-* Understanding of display properties of CSS (inline, block, inline-block).
+* Understanding of display properties of CSS (inline, block & inline-block).
 * CSS initial styling capabilities.
 
 ## Notes:
