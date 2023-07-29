@@ -6,7 +6,7 @@ Game will show contents parallel to our inputs.
 Enjoy!! 
 
 ## Preview
-![Preview Image of game](img/preview.png)
+![Preview Image Of Game--0.1](img/preview1.png)
 
 ## Personnel Outcome:
 * HTML DOM API Manipulation

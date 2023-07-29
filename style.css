@@ -1,69 +1,70 @@
-body{
-    background-color: rgb(2, 18, 6);
-    height: 700px;
-    border: 1mm double rgb(245, 242, 176);
+.main{
+    font-size: 16px;
+}
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+main{
+    width: 95vw;
+    height: 95vh;
+    border: 5px double rgb(245, 242, 176);
+    background-color: green;
     color: rgb(245, 242, 176);
+}
+.box{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 15px;
+}
+.box1{
+    border-right: 2px solid rgb(245, 242, 176);
 }
 
 .output-text{
     line-height: 10mm;
     font-weight: bolder;
-
-}
-
-
-.section2, .section1{
-    margin-left: 15px;
-    display: inline-block;
-    
-}
-.section1{
-    width: 800px;
-    height: 100%;   
-}
-.section2{
-    width: 250px;
-    height: 100%;
-    vertical-align: top;
-    border-left: 1px solid rgb(245, 242, 176);
-    padding-left: 20px;
 }
 
 button {
-height: 40px;
-width: 200px;
-background-color: transparent;
-margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: transparent;
+    margin-top: 10px;
+    font-size: large;
+    color: rgb(245, 242, 176);
+    border: 1mm solid rgb(245, 242, 176);
+    border-radius: 5px;
+    }
 
-font-size: large;
-color: rgb(245, 242, 176);
-border: 1mm medium ;
-border-color: rgb(222, 199, 135);
-border-radius: 5px;
-}
-
-button:hover{
-    cursor: pointer;
-    background-color: royalblue;
-}
-
-.quotes-text, .jokes-text, .riddle-text{
-    font-size: medium;
-    font-family:  monospace;
-    color: royalblue;
-}
-
-img{
-    height: 300px;
-    width: auto;
-    border: thin white;
-}
-
-.riddle-answer{
-    color: cornflowerblue;
-}
-
-.riddle-ans-btn{
-    border: none;
-    text-decoration: underline;
-}
+    button:hover{
+        cursor: pointer;
+        background-color: royalblue;
+    }
+    
+    .quotes-text, .jokes-text, .riddle-text{
+        font-size: large;
+        font-family:  monospace;
+        color: antiquewhite;
+    }
+    
+    img{
+        height: 300px;
+        width: auto;
+        border: thin white;
+    }
+    
+    .riddle-answer{
+        color: cornflowerblue;
+        font-size: larger;
+    }
+    
+    .riddle-ans-btn{
+        border: none;
+        text-decoration: underline;
+    }

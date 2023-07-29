@@ -123,7 +123,7 @@ function revealAnswer(){
         window.alert("Please Generate A Riddle First")
     }
     else if(riddleAnswerTag.hidden == false){
-        window.alert("answer for riddle has already shown")
+        window.alert("answer for the riddle has already shown")
     }
 
 }
